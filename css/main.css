@@ -1,2 +1,83 @@
 
-/*  Put your CSS Here */
+#image{
+    background-image: url("https://listverse.com/wp-content/uploads/2019/09/proxy.duckduckgo-21.jpg");
+    opacity: .4;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#header{
+    text-align: center;
+}
+#title{
+text-align: center;
+}
+
+.the-maze{    
+margin-left:50%;
+width: "500"px;
+height: "500"px; 
+  display: flex;
+ flex-direction: column;
+ position: relative;
+}
+
+#videoBox{
+border: 3px solid black;
+width: 500px;
+height: 375px;
+margin-top: -377px;
+margin-left: 5%;
+position: absolute;
+
+}
+.row{
+    flex-grow: 1; 
+    display: flex;
+}
+
+.wall{    
+    width: 25px;
+    height: 25px; 
+     background-color: black;
+
+}
+
+.start{  
+width: 25px;
+height: 25px; 
+ background-color: white;
+}
+
+.finish{   
+    width: 25px;
+    height: 25px; 
+    background-color: red;
+}
+
+.space{   
+width: 25px;
+height: 25px; 
+background-color: brown;
+}
+
+#author{
+    text-align: center;
+}
+
+#video{
+    border: 3px solid black;
+    width: 500px;
+    height: 375px;
+    margin-top: -377px;
+    margin-left: 5%;
+    position: absolute;   
+}
+
+#winner{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+
+}
